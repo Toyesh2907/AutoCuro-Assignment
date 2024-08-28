@@ -1,0 +1,33 @@
+library versions used:
+
+Numpy version: 1.26.4
+Pandas version: 2.2.2
+TensorFlow version: 2.15.0
+Torch version: 2.2.2+cpu
+Torch Geometric version: 2.5.3
+Scikit-learn version: 1.5.1
+Datetime module version: datetime
+AST module version: ast
+Random module version: random
+
+Instructions:
+
+import the model with correct directory input since i have imported it using my local path
+
+To play the Tic-Tac-Toe game, you need to run all the cells in the TicTacToeGame jupyter notebook.
+
+The input for each move should be an integer between 0 and 8, indicating the index on the board as shown below:
+
+0 | 1 | 2 
+--|---|---
+3 | 4 | 5 
+--|---|---
+6 | 7 | 8 
+
+If you choose a value greater than 8 or select a position that has already been played, you will need to restart the cell to play again.
+
+The game continue until either you or the model wins or draws
+
+
+Note:
+I have attached all the necessary scripts and datasets csv files needed to retrain the model if you want just change the directory path for each 
